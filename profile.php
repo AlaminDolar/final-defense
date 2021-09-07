@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+if(!isset($_SESSION ['username'])){
+  
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,7 +46,8 @@
                     <div class="d-flex flex-column align-items-center text-center">
                       <img  src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="150">
                       <div class="mt-3">
-                        <h4>Al-amin Dolar</h4>
+                        
+                        <h4> <?php echo $_SESSION ['username'];?> </h4>
                         <p class="text-secondary mb-1">Full Stack Developer</p>
                         <p class="text-muted font-size-sm">Kaliganj,Jhenidah,Bangladesh</p>
                        
@@ -77,7 +88,7 @@
                         <h6 class="mb-0">Full Name</h6>
                       </div>
                       <div class="col-sm-9 text-secondary">
-                        Md.Al-amin
+                      <?php echo $_SESSION ['username'];?>
                       </div>
                     </div>
                     <hr>
