@@ -76,15 +76,15 @@ while($rows= mysqli_fetch_array($query)){
 ?>
 
 
-<button class="text-center px-5 mb-5 btn-primary m-auto d-block" type="submit">Submit</button>
+<button name="submit" class="text-center px-5  btn-primary m-auto d-block" type="submit">Submit</button>
 
 
 </div>
 <div class="m-auto d-block">
-<a href="login.html"class="btn btn-primary px-5 mb-3" >Logout</a><br>
+<a href="login.html"class="btn btn-primary px-5 mt-3" >Logout</a><br>
 </div>
 
-<h5 class="text-center mb-3">@WiseMonkey</h5>
+<h5 class="text-center mt-3">@WiseMonkey</h5>
 </form>
 
 </div>
