@@ -37,11 +37,11 @@ mysqli_select_db($con,'quizdbase');
    
 </div><br>
 
-<form action="check.php" method="POST">
+<form action="checked.php" method="POST">
 
 <?php
 for($i=1; $i<6; $i++){
-$q= "select * from questions where qid=$i";
+$q= "select * from questions where qid=$i";  
 $query= mysqli_query($con,$q);
 
 while($rows= mysqli_fetch_array($query)){
