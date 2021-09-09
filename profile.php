@@ -30,7 +30,7 @@ if(!isset($_SESSION ['username'])){
           <li><a href="moctest.html">MOC Test</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="profile.html">PROFILE</a></li>
+          <li><a href="profile.php">PROFILE</a></li>
           <li><a href="login.html">LogOut</a></li>
         </ul>
     </div>
@@ -130,7 +130,7 @@ if(!isset($_SESSION ['username'])){
                     <hr>
                     <div class="row">
                       <div class="col-sm-12">
-                        <a class="btn btn-info " target="__blank" href="https://www.bootdey.com/snippets/view/profile-edit-data-and-skills">Edit</a>
+                        <!-- <a class="btn btn-info " target="__blank" href="https://www.bootdey.com/snippets/view/profile-edit-data-and-skills">Edit</a> -->
                       </div>
                     </div>
                   </div>

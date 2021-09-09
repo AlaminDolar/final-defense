@@ -82,6 +82,7 @@ while($rows= mysqli_fetch_array($query)){
 </div>
 <div class="m-auto d-block">
 <a href="login.html"class="btn btn-primary px-5 mt-3" >Logout</a><br>
+
 </div>
 
 <h5 class="text-center mt-3">@WiseMonkey</h5>

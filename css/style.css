@@ -21,7 +21,7 @@ p{
     line-height: 50px;
 }
 .navbar{
-    position: fixed;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,9 +101,9 @@ a:hover{
   background-color: gold;
   
 } 
-.text-parti h1{
+/* .text-part h1{
 padding-bottom: 50px;
-}       
+}        */
 .text-part{
     padding: 5px;
     position: relative;
